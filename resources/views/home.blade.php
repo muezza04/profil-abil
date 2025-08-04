@@ -1,0 +1,201 @@
+@extends('layouts.app')
+
+@section('title', 'Home')
+
+@section('content')
+
+    <div class="profile-container">
+        <img src="{{ asset('images/profil.jpeg') }}" alt="Foto Profil" class="profile-img">
+        <h1>Hi, I'm Al Abil Hidayatullah, S.Pd. 👋</h1>
+    </div>
+
+    <h2>PROFIL</h2>
+    <div class="list-paragraph">
+        <p>Lulusan Sarjana Pendidikan Bahasa dan Sastra Indonesia yang memiliki semangat tinggi untuk
+            berkontribusi di berbagai bidang, baik dalam sektor pendidikan, kreatif, maupun sosial
+            kemasyarakatan. Memiliki jiwa pembelajar, kreatif, adaptif, dan mampu bekerja secara mandiri
+            maupun dalam tim. Terampil dalam komunikasi lisan dan tulisan, pengelolaan waktu, serta memiliki
+            dedikasi tinggi terhadap pekerjaan dan tanggung jawab yang diemban. Berpengalaman dalam
+            bidang penulisan, penyuntingan, pembuatan konten kreatif, manajemen acara, serta memiliki
+            kemampuan dalam desain grafis dan produksi media digital. Siap untuk belajar hal baru,
+            menghadapi tantangan, dan memberikan kontribusi terbaik di lingkungan kerja mana pun.</p>
+    </div>
+    <hr>
+
+    <h2>Experience</h2>
+    <div class="list-paragraph">
+        <strong>Magang (Merdeka Belajar Kampus Merdeka)
+        Museum Adityawarman
+        Staf Tata Usaha (TU) </strong>2023
+        <ul>
+            <li>Mengelola administrasi surat masuk dan keluar secara tertib dan sistematis</li>
+            <li>Menyusun dan mengarsipkan dokumen penting kelembagaan</li>
+            <li>Membantu proses pencatatan data inventaris koleksi museum</li>
+            <li>Berkoordinasi dengan bidang pameran dan edukasi untuk kebutuhan administrasi acara</li>
+        </ul>
+    </div>
+    <hr>
+    
+    <h2>Education</h2>
+    <div class="list-paragraph">
+        <strong>Sarjana Pendidikan : Universitas PGRI Sumatera Barat </strong>2025<br>
+        <p style="margin-left: 10px;">Lulus dengan pujian</p>
+        <ul>
+            <li>GPA : 4.00</li>
+            <li>Judul Skripsi : Pengembangan Media Pembelajaran Interaktif Pada Materi Mengevaluasi
+            Informasi dalam Teks Negosiasi untuk Siswa Kelas X Fase E SMAN 15 Padang.</li>
+        </ul>
+        <strong>IPA : SMAN 1 Lubuk Alung <br>Lulus Tepat Waktu</strong>
+    </div>
+    <hr>
+
+    <h2>Course or Training</h2>
+    <div class="list-paragraph">
+        <strong>ALTISSIA (TOEFL Test) <br>CEFR LANGUAGE ASSESSMENT </strong>2025
+        <ul>
+            <li>Score The Following Levels : B2</li>
+        </ul>
+        <strong>Pelatihan Keahlian Komputer </strong>2025
+        <p>Tingkat : Fundamental, dengan Kompetensi “Web Developer”</p>
+
+        <strong>INDONESIA PERFORMANCE SYNDICATE </strong>2024
+        <p>Workshop butoh dan Penampil Pertunjukan Kolaborasi Indonesia-Jepang</p>
+
+        <strong>KEMENTERIAN PENDIDIKAN, KEBUDAYAAN, RISET, DAN TEKNOLOGI </strong>2024
+        <p>Lokakarya Komposisi Musik Klosal : Kureta Mandaki Galanggang Arang</p>
+
+        <strong>DINAS PENDIDIKAN DAN KEBUDAYAAN KABUPATEN PARIAMAN </strong>2024
+        <p>Workshop Perfilman Dalam Rangka Pembinaan Sumber Daya Manusia,
+        Lembaga dan Pranata Kebudayaan.</p>
+
+        <strong>SEKOLAH EKSPOR NASIONAL </strong>2024
+        <p>Program Studi Independen Bersertifikat Be A Digital Exporter</p>
+
+        <strong>SATRIA INDRA PRASTA PUBLISHNG </strong>2023
+        <p>Pelatihan dan Lomba Menulis Puisi Bersama Nana Sastrawan</p>
+
+        <strong>MAJELIS PERMUSYAWARATAN MAHASISWA KELUARGA MAHASISWA (MPM KM) </strong>2022
+        <p>Latihan Kepemimpinan Manajemen Mahasiswa Tingkat Dasar (LKMM-TD)</p>
+
+        <strong>DINAS PERINDUSTRIAN DAN PERDAGANGAN PROVINSI SUMATERA BARAT </strong>2022
+        <p>Bimbingan Teknis Digital Marketing</p>
+    </div>
+    <hr>
+
+    <h2>Seminar/Committe</h2>
+    <div class="list-paragraph">
+        <strong>Peserta 2025</strong>
+        <p>“Webinar Nasional #1" Strategi Membangun Kompetensi Guru di Era Pembelajaran Berbasis AI</p>
+        <p>Srawung Akademik #25 IKAPROBSI dengan tajuk “Penelitian Pendidikan Berbasis Seni”</p>
+        <p>Webinar Level Up Publikasi! Teknik Efektif Menulis Monograf & Buku Referensi</p>
+        <p>Bedah Buku Penelitian</p>
+
+        <strong>Peserta 2024</strong>
+        <p>WEBINAR Kupas Tuntas Seleksi PPG Prajabatan 2024</p>
+        <p>Webinar Beyond Borders “Mengejar Ilmu Diluar Negeri Tanpa Rasa Takut Melaluli Beasiswa YSEALI”</p>
+
+        <strong>Committe 2023</strong>
+        <p>Bulan Bahasa Tingkat Internasional(Anggota Acara)</p>
+        <p>Pelaksanaan Keakraban Mahasiswa Baru 2023</p>
+
+        <strong>Peserta 2023</strong>
+        <p>Webinar Nasional “Optimalisasi Peran Gen-Z dalam Mewujudkan Ide Kreatif dan Inovatif Menuju
+        Indonesia Emas”</p>
+        <p>Webinar “Pemanfaatan Perkembangan Teknologi 5.0 dalam Mendobrak Mutu Sastra Modern”
+        Pekan Bahasa dan Sastra XI</p>
+
+        <strong>Committe 2022</strong>
+        <p>Bulan Bahasa Tingkat Internasional (Koordinator Acara)</p>
+
+        <strong>Peserta 2022</strong>
+        <p>Webinar “ Eksistensi dan Inovasi Sosiolog Muda Dalam Mewujudkan Merdeka Belajar Kampus
+        Merdeka”</p>
+        <p>International Seminar & Talkshow “Public Speaking, Enterepreneurship, & Scholarship”</p>
+        <p>Seminar Manajemen Bencana “Membangun Ketangguhan Komunitas Melalui Pendidikan
+        Kebencanaan”</p>
+        <p>Makin Cakap Digital “Media Sosial Sebagai Sumber Pendapatan”</p>
+        <p>Seminar Nasional dalam NGONTRAS#9 (Ngobrol Nasional Metasastra ke-9) “Meneruskan
+        Pemikiran Chairil Anwar”</p>
+
+        <strong>Peserta 2021</strong>
+        <p>Festival Turuk Laggai dan Konferensi Internasional Tradisi Lisan Budaya Mentawai “Membangun
+        Jati Diri Masyarakat Mentawai di Era Globalisasi”</p>
+        <p>In Conference on Humanity Social and Education (CHoSEn) and Conference on Science and
+        Technology (ConSenT)</p>
+    </div>
+    <hr>
+    
+    <h2>Experience Competition</h2>
+    <div class="list-paragraph">
+        <strong>Peserta 2024</strong>
+        <p>Peserta Lomba Menulis Cerpen Bulan Bahasa Tingkat Nasional 2024 Prawara Akshaya</p>
+        <p>Peserta Baca Puisi dalam Pekan Seni Mahasiswa Indonesia Pengurus Provinsi Sumatera Barat
+        (Peksimida Sumbar)</p>
+        <p>Peserta Lomba Bahasa Inggris dan Bahasa Indonesia Kategori Lomba Poetry (Level Competent)</p>
+
+        <strong>Peserta 2023</strong>
+        <p>Peserta Lomba Karya Tulis Ilmiah Bulan Bahasa Tingkat Internasional</p>
+        <p>Peserta Lomba Karya Tulis Ilmiah dalam Kegiatan National Scientitific Competition</p>
+        <p>Peserta Kategori Lomba Poster dalam Acara Lomba Esai dan Poster Nasional</p>
+        <p>Sebagai Peserta Lomba Baca Puisi Tingkat Nasional “Harapan”</p>
+        <p>Sebagai Peserta Lomba Futsal PORSEGI III</p>
+
+        <strong>Peserta 2022</strong>
+        <p>Sebagai Peserta dalam Lomba Menulis Puisi “Kenangan” Tingkat Nasional</p>
+        <p>Sebagai Peserta Event Lomba Cipta Puisi (LCP 17) Tingkat Nasional “Berani Mencintai”</p>
+        <p>Peserta Lomba Baca Puisi Bulan Bahasa Tingkat Internasional</p>
+        <p>Sebagai Peserta dalam Lomba Menulis Puisi Tingkat Nasional “Ayah”</p>
+    </div>
+    <hr>
+
+    <h2>Achievement</h2>
+    <div class="prestasi">
+        <strong>Telah menerbitkan buku antologi puisi berjudul Dalam Bait yang Terluka (ISBN:
+        978-634-204-224-3, PT Pena Persada Kerta Utama, 2025)</strong><br>
+        <strong>Juara 1 Menulis Cerpen Bulan Bahasa Tingkat Nasional 2024</strong><br>
+        <strong>Juara 2 Desain Grafis Pekan Olahraga dan Seni Mahasiswa (PORSEMA) Tingkat Nasional 2024</strong><br>
+        <strong>Juara 1 Musikalisasi Puisi Tingkat Nasional 2022</strong><br>
+        <strong>Peserta Terbaik Lomba Menulis Puisi Se-Asia 2022</strong><br>
+        <strong>Penulis Terpilih Cipta Puisi Tingkat Nasional “SENJA” 2022</strong>
+    </div>
+    <hr>
+
+    <h2>Organization</h2>
+    <div class="list-paragraph">
+        <strong>Forum Guru Mengaji (FGM) </strong>2019 - Now
+        <p>Anggota</p>
+        <strong>Sanggar Seni Sahillia Samudiak </strong>2015 - Now
+        <p>Koordinator Sastra</p>
+        <strong>Lembaga Pengembangan Tiwatil Qur’an (LPTQ) </strong>2024
+        <p>Anggota Bidang Publikasi dan Dokumentasi/ Humas</p>
+        <strong>Himpunan Mahasiswa Pendidikan Bahasa dan Sastra Indonesia (HIMAPINDO) </strong>2023/2024
+        <p>Koordinator Departemen Kesekretariatan</p>
+        <strong>Himpunan Mahasiswa Pendidikan Bahasa dan Sastra Indonesia (HIMAPINDO) </strong>2022/2023
+        <p>Anggota Departemen Kaderisasi SDM</p>
+    </div>
+    <hr>
+
+    <h2>Professional Skills</h2>
+    <div class="news-style">
+        <p>Communication</p>
+        <p>Time Management</p>
+        <p>Actor</p>
+        <p>Leadership</p>
+        <p>Team-work</p>
+        <p>Poet</p>
+    </div>
+    <hr>
+
+    <h2>Technical Skills</h2>
+    <div class="news-style">
+        <p>Ms. Office</p>
+        <p>Canva</p>
+        <p>Google Meet</p>
+        <p>Zoom Meeting</p>
+        <p>Editor Video</p>
+        <p>Desainer Poster</p>
+    </div>
+
+    <!-- <p>Welcome to my personal profile website. I am a passionate developer/designer with a focus on modern and clean web applications.</p> -->
+    <!-- <p><a href="{{ url('/about') }}">Learn more about me →</a></p> -->
+@endsection
