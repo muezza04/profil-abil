@@ -1,11 +1,26 @@
-@extends('layouts.app')
-
-@section('title', 'Home')
-
-@section('content')
-
+<!-- resources/views/layouts/app.blade.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- resources/views/partials/header.blade.php -->
+<header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <!-- <a href="http://localhost/projects">Projects</a> -->
+        <a href="#">Certificate</a>
+    </nav>
+</header>
+    <main>
+        
     <div class="profile-container">
-        <img src="{{ asset('images/profil.jpeg') }}" alt="Foto Profil" class="profile-img">
+        <img src="../images/profil.jpeg" alt="Foto Profil" class="profile-img">
         <h1>Hi, I'm Al Abil Hidayatullah, S.Pd. 👋</h1>
     </div>
 
@@ -196,4 +211,21 @@
         <p>Desainer Poster</p>
     </div>
 
-@endsection
+    </main>
+    <!-- resources/views/partials/footer.blade.php -->
+<footer>
+    <p>© 2025 Arvari Nopa. All Rights Reserved.</p>
+    <p>
+        📱 <a href="https://wa.me/6281277783184?text=Hai%20Abil,%20saya%20ingin%20bertanya%20tentang%20profil%20Anda." target="_blank" target="_blank">
+            0812-7778-3184 | 
+        </a>
+        📧 <a href="mailto:alabilhidayatullah@gmail.com">
+            alabilhidayatullah@gmail.com | 
+        </a>
+        📷 <a href="https://www.instagram.com/al_abil_hdyt?utm_source=ig_web_button_share_sheet&igsh=MXhrdHpsbmk1ZHF1eA==" target="_blank">
+            @al_abil_hdyt
+        </a>
+    </p>
+</footer>
+</body>
+</html>
