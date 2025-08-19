@@ -1,10 +1,7 @@
 <!-- resources/views/partials/footer.blade.php -->
 <footer>
-    <p>© {{ date('Y') }} Arvari Nopa. All Rights Reserved.</p>
+    <p>© {{ date('Y') }} Al Abil Hidayatullah. All Rights Reserved.</p>
     <p>
-        📱 <a href="https://wa.me/6281277783184?text=Hai%20Abil,%20saya%20ingin%20bertanya%20tentang%20profil%20Anda." target="_blank" target="_blank">
-            0812-7778-3184 | 
-        </a>
         📧 <a href="mailto:alabilhidayatullah@gmail.com">
             alabilhidayatullah@gmail.com | 
         </a>

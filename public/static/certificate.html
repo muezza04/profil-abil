@@ -4,34 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="http://localhost/css/style.css">
+    <title>Certificate Me</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- resources/views/partials/header.blade.php -->
 <header>
     <nav>
-        <a href="http://localhost">Home</a>
-        <a href="http://localhost/about">About</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <!-- <a href="http://localhost/projects">Projects</a> -->
-        <a href="http://localhost/certificate">Certificate</a>
+        <a href="certificate.html">Certificate</a>
     </nav>
 </header>
     <main>
-            <h1>Contact Me</h1>
-    <p>You can reach me at:</p>
-    <ul>
-        <li>Email: <a href="mailto:your@email.com">your@email.com</a></li>
-        <li>Phone: +62 812-3456-7890</li>
-    </ul>
+            <div class="certificate-gallery">
+        <div class="certificate-item">
+            <img src="../images/sertif1.jpeg" alt="Sertifikat 1" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif2.jpeg" alt="Sertifikat 2" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif3.jpeg" alt="Sertifikat 3" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif4.jpeg" alt="Sertifikat 1" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif5.jpeg" alt="Sertifikat 2" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif6.jpeg" alt="Sertifikat 3" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif7.jpeg" alt="Sertifikat 1" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif8.jpeg" alt="Sertifikat 2" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif9.jpeg" alt="Sertifikat 3" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif10.jpeg" alt="Sertifikat 1" onclick="openModal(this)">
+        </div>
+        <div class="certificate-item">
+            <img src="../images/sertif11.jpeg" alt="Sertifikat 2" onclick="openModal(this)">
+        </div>
+        <!-- Tambahkan sesuai jumlah sertifikat -->
+    </div>
+
+    <!-- ✅ Popup Modal -->
+    <div id="popupModal" class="popup">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="popup-content" id="popupImage">
+    </div>
+
     </main>
     <!-- resources/views/partials/footer.blade.php -->
 <footer>
-    <p>© 2025 Arvari Nopa. All Rights Reserved.</p>
+    <p>© 2025 Al Abil Hidayatullah. All Rights Reserved.</p>
     <p>
-        📱 <a href="https://wa.me/6281277783184?text=Hai%20Abil,%20saya%20ingin%20bertanya%20tentang%20profil%20Anda." target="_blank" target="_blank">
-            0812-7778-3184 | 
-        </a>
         📧 <a href="mailto:alabilhidayatullah@gmail.com">
             alabilhidayatullah@gmail.com | 
         </a>
@@ -40,5 +74,16 @@
         </a>
     </p>
 </footer>
+    
+    <script>
+function openModal(element) {
+    document.getElementById("popupModal").style.display = "block";
+    document.getElementById("popupImage").src = element.src;
+}
+
+function closeModal() {
+    document.getElementById("popupModal").style.display = "none";
+}
+</script>
 </body>
 </html>
