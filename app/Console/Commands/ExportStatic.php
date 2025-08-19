@@ -15,7 +15,7 @@ class ExportStatic extends Command
     {
         // Daftar halaman Blade yang ingin diekspor
         $pages = [
-            // 'home'        => 'index.html',
+            'home'        => 'index.html',
             'about'       => 'about.html',
             'certificate' => 'certificate.html',
         ];
