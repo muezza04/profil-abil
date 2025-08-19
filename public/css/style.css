@@ -148,14 +148,13 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    /* .certificate-item {
-        width: 100%;
-        max-width: 100%;
-    } */
+    main {
+        padding: 10px; 
+    }
 
     .profile-container {
-        flex-direction: column;   /* ubah jadi atas-bawah */
-        text-align: center;       /* agar teks di tengah */
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -203,5 +202,14 @@ footer a:hover {
 @keyframes zoomIn {
     from { transform: scale(0.7); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
+}
+
+.title-about {
+    text-align: center;
+}
+
+.about-me p {
+    margin-left: 10px;
+    text-align: justify;
 }
 
